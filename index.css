@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #333;
+}
+
+nav {
+    display: inline-block;
+    width: 70%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a:first-child {
+    margin-left: 0px;
+}
+
+.logo-container {
+    display: inline-block;
+    width: 20%;
+    margin-left: 9%;
+}
+
+img {
+    max-width: 50%;
+
+}
+
+article {
+    width: 100%;
+    padding: 20px;
+}
+
+article section {
+    width: 49%;
+    display: inline-block;
+}
+
+section.sub {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.sub .left, .sub .right {
+    width: 49%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.sub .left p, .sub .right p {
+    text-align: center;
+}
